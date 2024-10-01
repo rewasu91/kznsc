@@ -13,7 +13,7 @@ Kaizen AutoScript V1.0
 <br>
 ♦️ PM Telegram : https://t.me/KaizenA <br>
  <br>
-♦️ STATUS SKRIP: Masih belum siap. Dalam proses..
+♦️ Status Autoscript : Masih belum siap. Dalam proses..
 
 ### CARA MEMASANG AUTOSCRIPT
 Sila salin dan jalankan kod berikut.
