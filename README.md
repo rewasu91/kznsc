@@ -1,5 +1,5 @@
 <h2 align="center">
-Kaizen AutoScript
+Kaizen AutoScript V1.0
 <img src="https://img.shields.io/badge/Version-1.0 (Xray Multiport)-blue.svg"></h2>
 
 </p> 
