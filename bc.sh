@@ -6,7 +6,7 @@ firtsTimeRun() {
     }
     [[ ! -d /root/test ]] && mkdir -p /root/test
     [[ ! -f /root/test/api.sh ]] && {
-        wget -qO- http://api.samhub.my.id/BotAPI.sh >/root/test/api.sh
+        wget -qO- https://raw.githubusercontent.com/rewasu91/kznsc/refs/heads/main/BotAPI.sh >/root/test/api.sh
     }
 }
 firtsTimeRun
@@ -20,7 +20,7 @@ ShellBot.init --token $get_Token --monitor --return map --flush --log_file /root
 msg_welcome() {
     local msg
     msg="Welcome ${message_from_first_name}\n"
-    msg+="These are the services provided by samsfx\n"
+    msg+="These are the services provided by kaizen\n"
     ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
         --text "$msg" \
         --reply_markup "$keyboard1" \
@@ -29,7 +29,7 @@ msg_welcome() {
 
 backReq() {
     msg="Welcome ${callback_query_from_first_name}\n"
-    msg+="These are the services provided by samsfx\n"
+    msg+="These are the services provided by kaizen\n"
     ShellBot.sendMessage --chat_id ${callback_query_from_id[$id]} \
         --text "$msg" \
         --reply_markup "$keyboard1" \
